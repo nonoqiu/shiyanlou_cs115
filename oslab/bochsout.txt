@@ -39,7 +39,7 @@
 00000000000i[MEM0 ] rom at 0xfffe0000/131072 ('./bochs/BIOS-bochs-latest')
 00000000000i[MEM0 ] rom at 0xc0000/39424 ('./bochs/vgabios.bin')
 00000000000i[CMOS ] Using local time for initial clock
-00000000000i[CMOS ] Setting initial clock to: Mon Mar 20 08:18:15 2017 (time0=1489997895)
+00000000000i[CMOS ] Setting initial clock to: Fri Mar 24 15:10:28 2017 (time0=1490368228)
 00000000000i[DMA  ] channel 4 used by cascade
 00000000000i[DMA  ] channel 2 used by Floppy Drive
 00000000000i[FDD  ] fd0: './linux-0.11/Image' ro=0, h=2,t=80,spt=18
@@ -482,26 +482,26 @@
 00022323551i[FDD  ] read() on floppy image returns 0
 00022368506i[FDD  ] read() on floppy image returns 0
 00022413461i[FDD  ] read() on floppy image returns 0
-00201116000i[     ] cpu loop quit, shutting down simulator
-00201116000i[CPU  ] CPU is in real mode (active)
-00201116000i[CPU  ] CS.d_b = 16 bit
-00201116000i[CPU  ] SS.d_b = 16 bit
-00201116000i[CPU  ] | EAX=00004f1a  EBX=00000007  ECX=00008edb  EDX=0000ff00
-00201116000i[CPU  ] | ESP=0000ff00  EBP=0000018e  ESI=ffff004f  EDI=00080016
-00201116000i[CPU  ] | IOPL=0 id vip vif ac vm rf nt of df if tf sf zf af PF cf
-00201116000i[CPU  ] | SEG selector     base    limit G D
-00201116000i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
-00201116000i[CPU  ] |  CS:9020( 0004| 0|  0) 00090200 0000ffff 0 0
-00201116000i[CPU  ] |  DS:9000( 0005| 0|  0) 00090000 0000ffff 0 0
-00201116000i[CPU  ] |  SS:9000( 0005| 0|  0) 00090000 0000ffff 0 0
-00201116000i[CPU  ] |  ES:9020( 0005| 0|  0) 00090200 0000ffff 0 0
-00201116000i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
-00201116000i[CPU  ] |  GS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
-00201116000i[CPU  ] | EIP=0000fa42 (0000fa42)
-00201116000i[CPU  ] | CR0=0x60000010 CR1=0 CR2=0x00000000
-00201116000i[CPU  ] | CR3=0x00000000 CR4=0x00000000
-00201116000i[CPU  ] >> (invalid)  : FFFF
-00201116000i[CMOS ] Last time is 1489997945 (Mon Mar 20 08:19:05 2017)
-00201116000i[XGUI ] Exit
-00201116000i[     ] restoring default signal behavior
-00201116000i[CTRL ] quit_sim called with exit code 1
+00030924000i[     ] cpu loop quit, shutting down simulator
+00030924000i[CPU  ] CPU is in real mode (active)
+00030924000i[CPU  ] CS.d_b = 16 bit
+00030924000i[CPU  ] SS.d_b = 16 bit
+00030924000i[CPU  ] | EAX=00004f1a  EBX=00000007  ECX=00008edb  EDX=0000ff00
+00030924000i[CPU  ] | ESP=0000ff00  EBP=0000018e  ESI=ffff004f  EDI=00080016
+00030924000i[CPU  ] | IOPL=0 id vip vif ac vm rf nt of df if tf sf zf af PF cf
+00030924000i[CPU  ] | SEG selector     base    limit G D
+00030924000i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00030924000i[CPU  ] |  CS:9020( 0004| 0|  0) 00090200 0000ffff 0 0
+00030924000i[CPU  ] |  DS:9000( 0005| 0|  0) 00090000 0000ffff 0 0
+00030924000i[CPU  ] |  SS:9000( 0005| 0|  0) 00090000 0000ffff 0 0
+00030924000i[CPU  ] |  ES:9020( 0005| 0|  0) 00090200 0000ffff 0 0
+00030924000i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00030924000i[CPU  ] |  GS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00030924000i[CPU  ] | EIP=0000fa42 (0000fa42)
+00030924000i[CPU  ] | CR0=0x60000010 CR1=0 CR2=0x00000000
+00030924000i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00030924000i[CPU  ] >> (invalid)  : FFFF
+00030924000i[CMOS ] Last time is 1490368235 (Fri Mar 24 15:10:35 2017)
+00030924000i[XGUI ] Exit
+00030924000i[     ] restoring default signal behavior
+00030924000i[CTRL ] quit_sim called with exit code 1
