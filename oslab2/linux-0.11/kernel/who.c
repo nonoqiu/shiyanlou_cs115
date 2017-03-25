@@ -11,14 +11,14 @@ int sys_iam(const char * name){
     }
     if(count>23){
         errno=EINVAL;
-	//printk("string is too long");
+	printk("string is too long");
         return -1;
     }
     else{
         for(i=0;i<=count;i++){
             sys_name[i]=*(name+i);
         }
-	//printk("copy finished");
+	printk("copy finished");
         return count;
     }
 }
@@ -30,14 +30,14 @@ int sys_whoami(char* name, unsigned int size){
     }
     if(size<i){
         errno=-1;
-	//printk("size is not enough");
+	printk("size is not enough");
         return -1;
     }
     else{
         for(i=0;i<=size;i++){
             *(name+i)=sys_name[i];
         }
-	//printk("copy finished");
+	printk("copy finished");
         return size;
     }
 }
